@@ -1,6 +1,6 @@
 function lCOM_Port = getAvailableComPort()
 % function lCOM_Port = getAvailableComPort()
-% Return a Cell Array of COM port names available on your computer
+% Return a Cell Array of COM port names available on your computer 
 
 try
     s=serial('IMPOSSIBLE_NAME_ON_PORT');fopen(s); 
